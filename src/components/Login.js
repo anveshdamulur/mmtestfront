@@ -46,7 +46,7 @@ const Login = () => {
             onChange={(e) => setUsername(e.target.value)}
           />
 
-          <Form.Label>Email</Form.Label>
+          <Form.Label>Password</Form.Label>
           <Form.Control
             required
             type="password"
