@@ -32,8 +32,12 @@ const Signup = () => {
   };
 
   return (
-    <form class="row g-3 needs-validation" onSubmit={handleSignup} novalidate>
-      <div class="col-md-4">
+    <form
+      class="col p-2 needs-validation center"
+      onSubmit={handleSignup}
+      novalidate
+    >
+      <div class="col-md-6">
         <label for="validationServer01" class="form-label">
           UserName
         </label>
@@ -51,7 +55,7 @@ const Signup = () => {
           </div>
         )}
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6">
         <label for="validationServer02" class="form-label">
           Email
         </label>
@@ -65,7 +69,7 @@ const Signup = () => {
         />
         <div class="valid-feedback">Looks good!</div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6">
         <label for="validationServer03" class="form-label">
           Password
         </label>
@@ -82,7 +86,7 @@ const Signup = () => {
           <div class="invalid-feedback">Please choose a Password.</div>
         </div>
       </div>
-      <div class="col-12">
+      <div class="col-md-4 mt-4">
         <button class="btn btn-primary" type="submit">
           Submit form
         </button>

@@ -1,6 +1,5 @@
 import axios from 'axios';
-const GEO_API = 'https://wft-geo-db.p.rapidapi.com/v1/geo/adminDivisions';
-
+const GEO_API = process.env.REACT_APP_RAPID_API;
 const getApiData = async () => {
   const options = {
     method: 'GET',
