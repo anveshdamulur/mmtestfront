@@ -44,6 +44,11 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
  5. In login page if you have given proper username and password, Using api endpoint it will verify weather you have given correct credentials, If yes, you are able to login and You can see the token stored into the localstorage(you can see it by inspect). 
  6. Once token is generated you are fully protected and you can see the welcome page with some data coming from external api.
  7. Here I just created one small search option you can search by using country name.
+ ### Packages
+ 
+ Main packages are 
+ 1. axios
+ 2. react-router-dom
  
 ### TODO
 1. take the input data and simply log it into the console. Its not a big task for me. But I need to store it into the database so it takes some time.
